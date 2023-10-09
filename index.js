@@ -51,7 +51,7 @@ router.get('/login', (req, res) => {
 });
 
 
-http://localhost:8081/logout/user
+// http://localhost:8081/logout/user
     router.get('/logout/:username', (req, res) => {
         const { username } = req.params;
         res.send(`<b>${username} successfully logged out.</b>`);
